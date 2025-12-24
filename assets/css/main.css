@@ -226,8 +226,25 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
-		background-repeat: repeat-x;
+		/* background-image: linear-gradient(to bottom, #C9C9F5 0%, #C9C9F5 20%, rgba(201, 201, 245, 0) 60%), 
+		                  url("images/bgbg.jpg");
+		
+		background-position: top left, bottom left;
+		background-repeat: repeat-x, repeat-x;
+		background-color: #C9C9F5;
+
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0; */
+		background-image: linear-gradient(to bottom, #C9C9F5 0%, #C9C9F5 40%, rgba(201, 201, 245, 0) 60%), 
+		                  url("images/bgbg.jpg");
+		
+		background-position: top left, bottom left;
+		background-repeat: repeat-x, repeat-x;
+		background-color: #E6E6FA;
+
 		height: 100%;
 		left: 0;
 		opacity: 1;
